@@ -74,3 +74,5 @@ group :test do
 end
 
 gem 'stripe'
+gem 'sidekiq', '~> 7.0', '>= 7.0.2'
+gem 'redis-client'
